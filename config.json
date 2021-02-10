@@ -1,0 +1,14 @@
+[
+	{
+		"type": "containerd",
+		"health_check": "main.go"
+	},
+	{
+		"type": "docker",
+		"health_check": "docker_health_check.sh"
+	},
+	{
+		"type": "portworx",
+		"health_check": "portworx_health_check.sh"
+	}
+]
