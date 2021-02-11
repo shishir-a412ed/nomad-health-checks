@@ -1,7 +1,7 @@
 #!/bin/bash
 
 main() {
-   echo "docker is healthy."
+   echo "docker daemon is healthy."
    exit 0
 }
 
