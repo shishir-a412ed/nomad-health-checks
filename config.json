@@ -1,7 +1,7 @@
 [
 	{
 		"type": "containerd",
-		"health_check": "main.go"
+		"health_check": "containerd_health_check"
 	},
 	{
 		"type": "docker",
