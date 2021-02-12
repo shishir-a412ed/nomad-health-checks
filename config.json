@@ -1,7 +1,7 @@
 [
 	{
 		"type": "containerd",
-		"health_check": "containerd_health_check"
+		"health_check": "containerd_health_check.sh"
 	},
 	{
 		"type": "docker",
