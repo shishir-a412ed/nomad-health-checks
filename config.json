@@ -8,6 +8,10 @@
 		"health_check": "docker_health_check.sh"
 	},
 	{
+		"type": "nginx",
+		"health_check": "nginx_health_check.sh"
+	},
+	{
 		"type": "portworx",
 		"health_check": "portworx_health_check.py"
 	}
