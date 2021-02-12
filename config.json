@@ -9,6 +9,6 @@
 	},
 	{
 		"type": "portworx",
-		"health_check": "portworx_health_check.sh"
+		"health_check": "portworx_health_check.py"
 	}
 ]
