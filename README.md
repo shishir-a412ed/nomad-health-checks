@@ -1,5 +1,5 @@
 # nomad-health-checks
-Sample health checks for Nomad node problem detector (NNPD)
+Sample health checks for Nomad node problem detector (NNPD)<br/>
 **NOTE** These are not **real** health checks and only serve as a reference to how your actual
 health checks should be defined.
 
