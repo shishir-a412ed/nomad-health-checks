@@ -1,27 +1,27 @@
 # nomad-health-checks
-Sample health checks for Nomad node problem detector (nNPD)
+Sample health checks for Nomad node problem detector (NNPD)
+**NOTE** These are not **real** health checks and only serve as a reference to how your actual
+health checks should be defined.
 
-## Nomad-node-problem-detector (nNPD)
+## Nomad-node-problem-detector (NNPD)
 
-Nomad-node-problem-detector (nNPD) is a system which scans through the problems<br/>
+Nomad-node-problem-detector (NNPD) is a system which scans through the problems<br/>
 on nomad client nodes, and take the bad nodes out of the scheduling pool so that<br/>
 nomad doesn't schedule any new jobs on these bad nodes. 
 
-If the problem is transient and fixes itself in sometime, nNPD will put the node back<br/>
+If the problem is transient and fixes itself in sometime, NNPD will put the node back<br/>
 in the scheduling pool, in the next scanning cycle.
 
-nNPD is composed of two main components
+NNPD is composed of two main components
 - Detector
 - Aggregator
 
 ### Detector
 
-Detector runs on every nomad client node and scans through some pre-defined health checks<br/>
-This repo (nomad-health-checks) is just a sample repo on how these health checks should be defined.<br/>
-This repo is mostly used by Nomad-node-problem-detector (nNPD) [`repo`](https://github.com/Roblox/nomad-node-problem-detector)<br/>
-for it's integration tests.<br/>
-**NOTE** These are not **real** health checks and only serve as a reference to how your actual
-health checks should be defined.
+- Detector runs on every nomad client node and scans through some pre-defined health checks<br/>
+- This repo (nomad-health-checks) is just a sample repo on how these health checks should be defined.<br/>
+- This repo is mostly used by Nomad-node-problem-detector (NNPD) repo for it's integration tests.<br/>
+- These are not **real** health checks and only serve as a reference to how your actual health checks should be defined.
 
 ### Aggregator
 
